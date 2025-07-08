@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ExampleListView: View {
     let examples: [(title: String, destination: AnyView)] = [
-        ("Glass Card", AnyView(GlassView())),
-        ("Glass Containers", AnyView(GlassContainersView())),
+        ("Glass Buttons", AnyView(GlassView())),
+        ("Glass Icons", AnyView(GlassContainersView())),
     ]
 
     var body: some View {
